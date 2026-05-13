@@ -36,7 +36,7 @@ Route::post('/login', function (Request $request) {
     ];
 
 
-    if (config('captcha.enabled')) {
+    if (config('wiz-captcha.enabled')) {
         $rules['captcha'] = 'required|wiz_captcha';
     }
 
@@ -63,7 +63,7 @@ Route::post('/register', function (Request $request) {
         'password' => 'required|min:6|confirmed',
     ];
 
-    if (config('captcha.enabled')) {
+    if (config('wiz-captcha.enabled')) {
         $rules['captcha'] = 'required|wiz_captcha';
     }
 
