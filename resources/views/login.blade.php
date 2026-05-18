@@ -140,6 +140,7 @@
         }
 
         /* Error */
+        
         .error {
             color: #e74c3c;
             font-size: 13px;
