@@ -202,6 +202,7 @@
 
                 {!! wiz_captcha_img('math', ['id' => 'captcha-image']) !!}
 
+                
                 <button type="button"
                         class="refresh-icon-btn"
                         onclick="refreshCaptcha()">
