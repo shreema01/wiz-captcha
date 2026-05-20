@@ -96,5 +96,6 @@ return [
             'operators' => ['+', '-'],
             'background' => [245, 245, 245],
         ],
+        
     ],
 ];
