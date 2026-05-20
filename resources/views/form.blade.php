@@ -7,6 +7,7 @@
 
     <input type="text" name="captcha" required autocomplete="off">
 
+    
     @error('captcha')
         <div>{{ $message }}</div>
     @enderror
