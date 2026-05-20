@@ -223,6 +223,7 @@
             @error('captcha')
             <div class="error">{{ $message }}</div>
             @enderror
+            
         </div>
         @endif
 
