@@ -7,6 +7,7 @@ Route::get('/', function () {
     return view('form');
 });
 
+
 Route::post('/contact', function (Request $request) {
 
     $request->validate([
