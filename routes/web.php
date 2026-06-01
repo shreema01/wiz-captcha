@@ -32,6 +32,7 @@ Route::get('/login', function () {
 Route::post('/login', function (Request $request) {
 
     $rules = [
+        
         'email' => 'required|email',
         'password' => 'required',
     ];
