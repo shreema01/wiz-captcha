@@ -24,6 +24,7 @@ Route::post('/contact', function (Request $request) {
 |--------------------------------------------------------------------------
 */
 
+
 Route::get('/login', function () {
     return view('login');
 })->name('login');
