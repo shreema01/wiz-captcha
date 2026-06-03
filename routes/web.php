@@ -46,6 +46,7 @@ Route::post('/login', function (Request $request) {
 
     $request->validate($rules);
 
+    
     return "Login successful";
 });
 
