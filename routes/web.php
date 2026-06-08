@@ -46,7 +46,7 @@ Route::post('/login', function (Request $request) {
 
     
     return "Login successful";
-    
+
 });
 
 /*
@@ -58,6 +58,7 @@ Route::post('/login', function (Request $request) {
 Route::get('/register', function () {
     return view('registration');
 })->name('register');
+
 
 Route::post('/register', function (Request $request) {
 
