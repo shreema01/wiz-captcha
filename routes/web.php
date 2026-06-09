@@ -76,4 +76,5 @@ Route::post('/register', function (Request $request) {
     $request->validate($rules);
 
     return "Registration successful";
+    
 });
