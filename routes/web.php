@@ -42,7 +42,8 @@ Route::post('/login', function (Request $request) {
         $rules['captcha'] = 'required|wiz_captcha';
     }
 
-    $request->validate($rules);
+    
+    $request->validate($rules); 
     return "Login successful";
 
 });
