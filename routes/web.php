@@ -58,7 +58,6 @@ Route::get('/register', function () {
     return view('registration');
 })->name('register');
 
-
 Route::post('/register', function (Request $request) {
 
     $rules = [
