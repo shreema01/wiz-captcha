@@ -29,6 +29,7 @@ Route::get('/login', function () {
     return view('login');
 })->name('login');
 
+
 Route::post('/login', function (Request $request) {
 
     $rules = [
