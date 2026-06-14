@@ -231,7 +231,6 @@
             Sign In
         </button>
     </form>
-
 </div>
 
 @if(config('wiz-captcha.enabled'))
