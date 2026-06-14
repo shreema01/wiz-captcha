@@ -236,6 +236,7 @@
 </div>
 
 @if(config('wiz-captcha.enabled'))
+
 <script>
 function refreshCaptcha() {
     document.getElementById('captcha-image').src =
