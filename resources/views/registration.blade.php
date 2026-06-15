@@ -190,13 +190,14 @@
                    class="form-control"
                    required>
 
-                   
+
             @error('email')
             <div class="error">{{ $message }}</div>
             @enderror
         </div>
 
         {{-- Password --}}
+        
         <div class="form-group">
             <label>Password</label>
             <input type="password"
