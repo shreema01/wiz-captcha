@@ -181,7 +181,7 @@
         </div>
 
         {{-- Password --}}
-        
+
         <div class="form-group">
             <label>Password</label>
             <input type="password"
@@ -192,6 +192,7 @@
             @error('password')
             <div class="error">{{ $message }}</div>
             @enderror
+            
         </div>
 
         {{-- CAPTCHA --}}
