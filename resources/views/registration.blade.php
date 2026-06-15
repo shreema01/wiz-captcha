@@ -178,7 +178,7 @@
             @error('name')
             <div class="error">{{ $message }}</div>
             @enderror
-            
+
         </div>
 
         {{-- Email --}}
@@ -190,6 +190,7 @@
                    class="form-control"
                    required>
 
+                   
             @error('email')
             <div class="error">{{ $message }}</div>
             @enderror
