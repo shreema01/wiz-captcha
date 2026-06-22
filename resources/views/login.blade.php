@@ -199,6 +199,7 @@
 
         {{-- CAPTCHA --}}
         
+        
         @if(config('wiz-captcha.enabled'))
         <div class="form-group captcha-box">
 
