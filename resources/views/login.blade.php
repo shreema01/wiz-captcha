@@ -201,14 +201,13 @@
         
         
         @if(config('wiz-captcha.enabled'))
-        
+
         <div class="form-group captcha-box">
 
             <div class="captcha-header">
 
                 {!! wiz_captcha_img('math', ['id' => 'captcha-image']) !!}
 
-                
                 <button type="button"
                         class="refresh-icon-btn"
                         onclick="refreshCaptcha()">
@@ -244,6 +243,7 @@
 <script>
 
 function refreshCaptcha() {
+
     document.getElementById('captcha-image').src =
         "{{ route('wiz-captcha.image', ['preset' => 'math']) }}?" + Date.now();
 }
