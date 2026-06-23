@@ -201,6 +201,7 @@
         
         
         @if(config('wiz-captcha.enabled'))
+        
         <div class="form-group captcha-box">
 
             <div class="captcha-header">
