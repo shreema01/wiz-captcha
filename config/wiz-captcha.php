@@ -85,6 +85,7 @@ return [
         ],
 
         'math' => [
+            
             'type' => 'math',
             'width' => 160,
             'height' => 55,
@@ -95,6 +96,7 @@ return [
             'max' => 20,
             'operators' => ['+', '-'],
             'background' => [245, 245, 245],
+            
         ],
         
     ],
