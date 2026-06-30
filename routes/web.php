@@ -74,4 +74,5 @@ Route::post('/register', function (Request $request) {
 
     return "Registration successful";
     
+    
 });
