@@ -33,7 +33,6 @@ Route::get('/login', function () {
 Route::post('/login', function (Request $request) {
 
     $rules = [
-        
         'email' => 'required|email',
         'password' => 'required',
     ];
@@ -65,6 +64,7 @@ Route::post('/register', function (Request $request) {
         'email' => 'required|email',
         'password' => 'required|min:6|confirmed',
     ];
+    
     
     if (config('wiz-captcha.enabled')) {
         $rules['captcha'] = 'required|wiz_captcha';
