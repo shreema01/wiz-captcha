@@ -39,6 +39,7 @@ Route::post('/login', function (Request $request) {
         'password' => 'required',
     ];
     
+    
     if (config('wiz-captcha.enabled')) {
         $rules['captcha'] = 'required|wiz_captcha';
     }
