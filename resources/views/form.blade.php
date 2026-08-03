@@ -5,6 +5,7 @@
 
     <button type="button" onclick="refreshCaptcha()">Refresh</button>
 
+
     <input type="text" name="captcha" required autocomplete="off">
     
     @error('captcha')

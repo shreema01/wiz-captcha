@@ -191,7 +191,8 @@
                    required>
 
 
-            @error('email')
+            
+           @error('email')
             <div class="error">{{ $message }}</div>
             @enderror
         </div>
