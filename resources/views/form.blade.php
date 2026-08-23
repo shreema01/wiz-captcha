@@ -10,6 +10,7 @@
     @error('captcha')
         
         <div>{{ $message }}</div>
+        
     @enderror
 
     <button type="submit">Submit</button>
