@@ -211,6 +211,8 @@
                 <button type="button"
                         class="refresh-icon-btn"
                         onclick="refreshCaptcha()">
+
+                        
                     <i class="fa-solid fa-rotate"></i>
                 </button>
 
