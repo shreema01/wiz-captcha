@@ -40,7 +40,6 @@
             from { opacity: 0; transform: translateY(20px); }
             to { opacity: 1; transform: translateY(0); }
         }
-
         h2 {
             text-align: center;
             margin-bottom: 25px;
@@ -53,7 +52,6 @@
         .form-group {
             margin-bottom: 18px;
         }
-
         label {
             display: block;
             margin-bottom: 6px;
