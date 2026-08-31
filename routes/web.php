@@ -10,7 +10,6 @@ Route::get('/', function () {
 
 Route::post('/contact', function (Request $request) {
 
-    
     $request->validate([
         'captcha' => 'required|wiz_captcha',
     ]);
