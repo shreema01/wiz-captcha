@@ -22,6 +22,7 @@
 
 function refreshCaptcha() {
 
+    
     document.getElementById('captcha-image').src = "{{ route('wiz-captcha.image', ['preset' => 'math']) }}?" + Date.now();
     
 }
