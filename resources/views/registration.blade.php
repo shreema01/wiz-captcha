@@ -211,6 +211,7 @@
             @error('password')
             <div class="error">{{ $message }}</div>
             @enderror
+            
         </div>
 
         {{-- Confirm Password --}}
