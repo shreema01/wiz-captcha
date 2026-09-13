@@ -5,7 +5,6 @@
 
     <button type="button" onclick="refreshCaptcha()">Refresh</button>
 
-    
     <input type="text" name="captcha" required autocomplete="off">
     
     @error('captcha')
@@ -13,7 +12,6 @@
         <div>{{ $message }}</div>
         
     @enderror
-
     
     <button type="submit">Submit</button>
 
@@ -23,7 +21,6 @@
 
 function refreshCaptcha() {
 
-    
     document.getElementById('captcha-image').src = "{{ route('wiz-captcha.image', ['preset' => 'math']) }}?" + Date.now();
     
 }
